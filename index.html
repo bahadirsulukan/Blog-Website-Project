@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Benim Blogum</title>
-  <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mein Moderner Blog</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Merhaba Dünya!</h1>
+	<header class="header">
+		<div class="profile">
+			<img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profilbild" class="profile-img">
+			<h1>Bahadir Sulukan</h1>
+			<p>Willkommen zu meinem modernen Blog!</p>
+		</div>
+		<nav class="nav">
+			<a href="#home">Home</a>
+			<a href="#blog">Blog</a>
+			<a href="#kontakt">Kontakt</a>
+		</nav>
+		<div class="social-links">
+			<a href="https://twitter.com" target="_blank" aria-label="Twitter">
+				<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.59-2.47.7a4.3 4.3 0 0 0 1.88-2.37c-.83.5-1.75.87-2.72 1.07A4.28 4.28 0 0 0 12 9.75c0 .34.04.67.1.99C8.09 10.6 4.8 8.8 2.67 6.15c-.37.64-.58 1.38-.58 2.17 0 1.5.77 2.82 1.94 3.6-.72-.02-1.4-.22-1.99-.55v.06c0 2.1 1.49 3.85 3.47 4.25-.36.1-.74.16-1.13.16-.28 0-.54-.03-.8-.08.54 1.7 2.1 2.94 3.95 2.97A8.6 8.6 0 0 1 2 19.54c-.34 0-.67-.02-1-.06A12.13 12.13 0 0 0 7.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.18 8.18 0 0 0 24 4.59a8.2 8.2 0 0 1-2.36.65z"></path></svg>
+			</a>
+			<a href="https://github.com" target="_blank" aria-label="GitHub">
+				<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.36 6.84 9.72.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05a9.38 9.38 0 0 1 2.5-.34c.85 0 1.71.11 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"></path></svg>
+			</a>
+			<a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+				<svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.32-.03-3-1.83-3-1.83 0-2.11 1.43-2.11 2.91v5.59h-3v-10h2.88v1.36h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v5.61z"></path></svg>
+			</a>
+		</div>
+	</header>
+	<main>
+		<section id="blog" class="blog-section">
+			<h2>Neueste Beiträge</h2>
+			<div class="blog-list">
+				<article class="blog-card animate">
+					<h3>Erster Blogpost</h3>
+					<p>Das ist ein Beispieltext für deinen ersten Blogpost. Hier kannst du deine Gedanken teilen!</p>
+					<span class="date">04.09.2025</span>
+				</article>
+				<article class="blog-card animate">
+					<h3>Zweiter Blogpost</h3>
+					<p>Ein weiteres Beispiel für einen modernen Blog-Eintrag. Füge hier deine Inhalte hinzu.</p>
+					<span class="date">03.09.2025</span>
+				</article>
+			</div>
+		</section>
+		<section id="kontakt" class="contact-section animate">
+			<h2>Kontaktformular</h2>
+			<form class="contact-form">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">E-Mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Nachricht</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+				<button type="submit">Absenden</button>
+			</form>
+		</section>
+	</main>
+	<footer class="footer">
+		<p>&copy; 2025 Bahadir Sulukan. Alle Rechte vorbehalten.</p>
+	</footer>
 </body>
 </html>

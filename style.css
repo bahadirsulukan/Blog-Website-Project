@@ -1,208 +1,24 @@
 body {
-    background: #fafafa;
-    font-family: Arial, sans-serif;
-    color: #333;
-  }
-h1 {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 20px;
-  }
-h2 {
-    color: #666;
-    font-size: 1.5em;
-    margin-bottom: 15px;
-  }
-h3 {
-    color: #999;
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-p {
-    color: #444;
-    font-size: 1em;
-    line-height: 1.5;
-    margin-bottom: 15px;
-  }
-a {
-    color: #007BFF;
-    text-decoration: none;
-  }
-a:hover {
-    text-decoration: underline;
-  }
-ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-li {
-    margin-bottom: 10px;
-  }
-img {
-    max-width: 100%;
-    height: auto;
-  }
-button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-button:hover {
-    background-color: #0056b3;
-  }
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-textarea:focus {
-    border-color: #007BFF;
-    outline: none;
-  }
-form {
-    margin-bottom: 20px;
-  }
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-  }
-legend {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-th,
-td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;
-  }
-th {
-    background-color: #f2f2f2;
-  }
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-tr:hover {
-    background-color: #f1f1f1;
-  }
-@media (max-width: 600px) {
-    body {
-        font-size: 14px;
-      }
-    h1 {
-        font-size: 1.5em;
-      }
-    h2 {
-        font-size: 1.2em;
-      }
-    h3 {
-        font-size: 1em;
-      }
-    button {
-        width: 100%;
-      }
-    input[type="text"],
-    input[type="email"],
-    input[type="password"],
-    textarea {
-        width: 100%;
-      }
-    table {
-        width: 100%;
-        font-size: 14px;
-      }
-    th,
-    td {
-        padding: 8px;
-      }
-    ul {
-        padding-left: 15px;
-      }
-    li {
-        margin-bottom: 8px;
-      }
-    img {
-        max-width: 100%;
-        height: auto;
-      }
-    form {
-        margin-bottom: 15px;
-      }
-    label {
-        margin-bottom: 5px;
-      }
-    fieldset {
-        padding: 8px;
-      }
-    legend {
-        margin-bottom: 8px;
-      }
-    p {
-        font-size: 14px;
-      }
-    a {
-        font-size: 14px;
-      }
-    a:hover {
-        text-decoration: underline;
-      }
-    input[type="text"],
-    input[type="email"],
-    input[type="password"],
-    textarea {
-        font-size: 14px;
-      }
-    button {
-        font-size: 14px;
-      }
-    input[type="text"]:focus,
-    input[type="email"]:focus,
-    input[type="password"]:focus,
-    textarea:focus {
-        border-color: #007BFF;
-        outline: none;
-      }
-    form {
-        margin-bottom: 15px;
-      }
-    label {
-        display: block;
-        margin-bottom: 5px;
-        font-weight: bold;
-      }
-    fieldset {
-        border: 1px solid #ccc;
-        padding: 8px;
-        margin-bottom: 15px;
-      }
-    legend {
-        font-weight: bold;
-        margin-bottom: 8px;
-      }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-        margin-bottom: 15px;
-      }
-    th
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+nav a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+main {
+  padding: 1rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
